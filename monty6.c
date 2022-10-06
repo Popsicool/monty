@@ -2,7 +2,7 @@
 
 /**
  * open_file - open file.
- * @file_name: file 
+ * @file_name: file
  * Returns: void
  */
 
@@ -44,7 +44,7 @@ void read_file(FILE *fd)
  * @line_number: line number.
  * @format:  storage format. If 0 Nodes will be entered as a stack.
  * if 1 nodes will be entered as a queue.
- * Returns: 0 if the opcode is stack else 1 if it isqueue.
+ * Return: 0 if the opcode is stack else 1 if it isqueue.
  */
 
 int parse_line(char *buffer, int line_number, int format)

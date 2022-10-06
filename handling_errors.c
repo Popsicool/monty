@@ -41,6 +41,8 @@ void err(int error_code, ...)
 
 /**
  * more_err - handles the errors.
+ * @error_code: error_code
+ * Return: void
  */
 void more_err(int error_code, ...)
 {
@@ -77,6 +79,8 @@ void more_err(int error_code, ...)
 
 /**
  * string_err - handles errors.
+ * @error_code: error_code
+ * return: void
  */
 void string_err(int error_code, ...)
 {
